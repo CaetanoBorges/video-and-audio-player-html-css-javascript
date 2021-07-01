@@ -1,0 +1,106 @@
+.audioPlayer {
+    width: 300px;
+    position: relative;
+}
+
+.audioPlayer div {
+    width: 98%;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    font-weight: bold;
+    background: rgba(255, 255, 255, .5);
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.style {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.audioPlayer div p {
+    display: inline-flex;
+    margin: 0 0 0 9.5%;
+}
+
+.audioPlayer div img {
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.audioPlayer .player-capa {
+    position: relative;
+    background: none;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.audioPlayer .player-capa img {
+    width: 100%;
+}
+
+.audioPlayer .player-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    display: none;
+}
+
+.audioPlayer .player-loader img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.audioPlayer .player-button-play {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: none;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    margin: 0 auto;
+    display: block;
+}
+
+.audioPlayer .player-button-play img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    opacity: .6;
+}
+
+.audioPlayer .player-play {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: none;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    display: none;
+}
+
+.audioPlayer .player-play img {
+    width: 100%;
+    display: block;
+    opacity: .7;
+}
